@@ -9,7 +9,7 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use('/static', express.static('static'));
 app.use(bodyParser.urlencoded());
-app.use(expressMongoDb('mongodb://localhost/tomorrowland'));
+app.use(expressMongoDb('mongodb://admin:admin123@ds239412.mlab.com:39412/tomorrowland'));
 
 app.get('', (req, res) => {
     res.render('index');
@@ -42,6 +42,6 @@ app.get('/sobre', (req, res) => {
     res.render('sobre');
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Servidor inicializado')
 });
