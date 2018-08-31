@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, purple , blue, red);
+    color: white;
+    align-items: center;
+}
+header h1 {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+  color:white;
+}
+header img {
+    width: 60px;
+    margin-top: 15px;
+    height: 60px;
+    margin-left: 20px;
+    position: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+header div{
+    display: flex;
+}
+
+footer{
+    padding: 30px 40px;
+    background-image: linear-gradient(to bottom right, purple, blue, red); color: white;
+}
+
+.home .banner {
+    position: relative;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.home .banner img{
+    width: 100%;
+}
+
+.home .banner h2{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    background: -webkit-linear-gradient(purple
+    , blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    width: 500px;
+    max-width: 100%;
+    line-height: 1.5;
+    font-family:'Gloria Hallelujah', cursive;
+    
+}
+
+.home form{
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+.home form input, .home form textarea{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.home form button{
+    border: 0;
+    border-radius: 50px;
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.music .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.musics .container div{
+    width: 30%;
+}
+
+.musics .container div img{
+    width: 100%;
+    
+
+}

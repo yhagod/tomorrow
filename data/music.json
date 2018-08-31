@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Martin garrix",
+        "img": "/static/martin.jpg"
+    },
+    {
+        "nome": "Dimitri Vegas & Like Mike",
+        "img": "/static/dimitri.jpg"
+    },
+    {
+        "nome": "Armin Van Buuren",
+        "img": "/static/armin.jpg"
+    },
+    {
+        "nome": "Hardwell",
+        "img": "/static/hardwell.jpg"
+    },
+    {
+        "nome": "The Chainsmokers",
+        "img": "/static/thechain.jpg"
+    }
+] 

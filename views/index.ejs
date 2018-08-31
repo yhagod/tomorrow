@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('shared/head') %>
+<body>
+    <%- include('shared/header') %>
+    <section class="home">
+        <div class="banner">
+            <h2>Bem vindo ao Tomorrowland Brasil</h2>
+            <img src="/static/banner.jpg" alt="">
+        </div>
+        <div id="entrada"></div>
+        <form method="POST" action="/">
+            <h2>Envie seus dados e verifique a disponibilidade de ingressos.</h2>
+            <input type="text" placeholder="nome" name="nome">
+            <input type="text" placeholder="email" name="email">
+            <h1>Dia de evento</h1>
+            <select placeholder="DJs" name="DJs" size="5" multiple>
+                    <option value="Martin Garrix- 10/09/2018">Martin Garrix -10/09/2018</option>
+                    <option value="Dimitri Vegas e Like Mike -11/09/2018">Dimitri Vegas e Like Mike -11/09/2018</option>
+                    <option value="Armin Van Buuren -12/09/2018">Armin Van Buuren -12/09/2018</option>
+                    <option value="Hardwell -13/09/2018">Hardwell -13/09/2018</option>
+                    <option value="The Chainsmokers -14/09/2018"> The Chainsmokers -14/09/2018</option>
+                  </select>
+                  
+                  <select placeholder="ingressos" name="ingressos" size="4">
+                    <option value="Martin Garrix - Pista premium - R$850">Pista premium - R$850</option>
+                    <option value="Dimitri Vegas e Like Mike - Pista vip - R$750">Pista vip - R$750</option>
+                    <option value="Armin Van Buuren- Camarote Land - R$1500">Camarote Land - R$1500</option>
+                    <option value="Hardwell- Camarote Tomorrow - R$1500">Camarote Tomorrow - R$1500</option>
+                </select>
+              
+            <textarea rows="10" placeholder="Mensagem" name="Mensagem"></textarea>
+            
+            <button>Enviar</button>
+        </form>
+    </div>
+    </section>
+    
+    <%- include('shared/footer') %>
+</body>
+</html>

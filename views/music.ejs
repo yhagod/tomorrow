@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('shared/head') %>
+<body>
+    <%- include('shared/header') %>
+    <section class="music">
+        <nav>
+        <h2>LINE UP DJ'S 2018 </h2>
+        </nav>
+        
+        <div class="container">
+            <% for(let music of musics){ %>
+                <div>
+                    <img src="<%= music.img %>" alt="">
+                    <h3><%= music.nome %></h3>
+                </div>
+            <% } %>
+        </div>
+        
+    </section>
+</body>
+</html>

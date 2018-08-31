@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('shared/head') %>
+<body>
+    <section>
+        <h2>Reservas</h2>
+        
+        <% for(let mensagem of mensagens){ %>
+            <div>
+                <p>Nome: <%= mensagem.nome%></p>
+                <p>E-mail: <%= mensagem.email%></p>
+                <p>Mensagem: <%= mensagem.Mensagem%></p>
+                <p>Dia de evento: <%= mensagem.DJs%></p>
+                <p>Tipo de ingresso: <%= mensagem.ingressos%></p>
+                <hr>
+                </div>
+                <% } %>
+                
+        </section>
+    </body>
+    </html> 
